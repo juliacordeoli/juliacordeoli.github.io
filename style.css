@@ -1,0 +1,161 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: ghostwhite;
+  font-family: "Poppins", sans-serif;
+}
+
+.menu-lista {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  /* height: 150px; */
+}
+a {
+  background: #827191;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 20px 30px;
+  border: 3px solid;
+  border-radius: 20px;
+  font-weight: bold;
+  display: flex;
+}
+
+.cabecalho {
+  background-color: #827191;
+  justify-content: space-between;
+  /* padding: 20px 40px; */
+  align-items: center;
+  height: 150px;
+  display: flex;
+  padding: 0 30px;
+}
+
+a:hover {
+  background-color: rgb(174, 56, 230);
+  border-radius: 15px;
+  text-decoration: none;
+  padding: 22px;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.section-1 {
+  /* width: 100vw; */
+  /* height: 250px; */
+  background: lightblue;
+  /* padding-top: 150px;  */
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section-2 {
+  /* height: 250px; */
+  background: rgb(98, 179, 182);
+}
+
+.section-3 {
+  /* height: 400px; */
+  background: rgb(36, 128, 145);
+}
+
+.section {
+  padding-top: 50px;
+}
+.logo {
+  /* background-image: url(./pppp.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; */
+  height: 150px;
+  width: auto;
+}
+.foto {
+  height: 200px;
+  padding-left: 70px;
+  justify-items: center;
+  border-radius: 10px;
+}
+.textosobre {
+  padding-right: 120px;
+  font-size: 1rem;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 300px 500px;
+  width: 800px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.competencia {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.titulo-2 {
+  text-align: center;
+  padding: 40px;
+}
+
+.item {
+  text-align: center;
+}
+
+.texto-icone {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.box-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.box-conteudo {
+  border: 1px solid white;
+  width: 400px;
+  height: 250px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.curso {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 110px;
+}
+.titulo {
+  color: #000;
+  text-align: center;
+}
+p {
+  color: black;
+}
+
+.rodape {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.section-4 {
+  padding: 30px;
+}
+
+.icone {
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
